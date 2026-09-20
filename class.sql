@@ -1,0 +1,19 @@
+USE student_management;
+
+CREATE TABLE Class (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Teacher (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    age INT,
+    country VARCHAR(255)
+);
+
+SHOW TABLES;
+
+DESCRIBE Class;
+
+DESCRIBE Teacher;
